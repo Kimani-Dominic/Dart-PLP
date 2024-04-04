@@ -9,10 +9,10 @@ enum ProgrammingLanguage {
 }
 
 void main() {
-  //calling by index
+  //accessing by index
   print(ProgrammingLanguage.values[1]);
 
-  //
+  //accessing by values
   print(ProgrammingLanguage.Javascript);
 
 // Iterating through enum values
