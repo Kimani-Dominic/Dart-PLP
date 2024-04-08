@@ -10,7 +10,7 @@ void main() { // Define the main function, the starting point of the program.
   double num2 = double.parse(stdin.readLineSync()!); // Read the user's input as the second number.
 
   print("Select an operation:"); // Prompt the user to select a mathematical operation.
-  print("1. Addition (+)"); // Display option for addition.
+  print("1. Addition (+)"); 
   print("2. Subtraction (-)"); // Display option for subtraction.
   print("3. Multiplication (*)"); // Display option for multiplication.
   print("4. Division (/)"); // Display option for division.
